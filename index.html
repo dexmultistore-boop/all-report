@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TEAM ATCF</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    overflow-x:hidden;
+    color:white;
+    background: #0a0f2c;
+}
+
+/* 🌈 Animated Background Glow */
+body::before{
+    content:"";
+    position:fixed;
+    width:200%;
+    height:200%;
+    background: radial-gradient(circle at 20% 20%, #00f5ff33, transparent 25%),
+                radial-gradient(circle at 80% 30%, #ff00ff33, transparent 25%),
+                radial-gradient(circle at 40% 80%, #00ff8833, transparent 25%);
+    animation: moveBg 10s linear infinite;
+    z-index:-2;
+}
+
+@keyframes moveBg{
+    0%{transform:translate(0,0);}
+    50%{transform:translate(-10%,-10%);}
+    100%{transform:translate(0,0);}
+}
+
+/* ✨ Floating Light Particles */
+.particles{
+    position:fixed;
+    width:100%;
+    height:100%;
+    z-index:-1;
+}
+
+.particles span{
+    position:absolute;
+    width:6px;
+    height:6px;
+    background:white;
+    border-radius:50%;
+    animation: float 8s linear infinite;
+    opacity:0.3;
+}
+
+@keyframes float{
+    0%{transform:translateY(100vh) scale(0);}
+    100%{transform:translateY(-10vh) scale(1);}
+}
+
+/* Header */
+.header{
+    text-align:center;
+    padding:20px;
+    font-size:22px;
+    font-weight:bold;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+/* Section */
+.section-title{
+    text-align:center;
+    margin:15px 0;
+    font-size:18px;
+    color:#00ffff;
+    text-shadow:0 0 10px #00ffff;
+}
+
+/* Grid */
+.container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    gap:15px;
+    padding:20px;
+}
+
+/* 🔥 BUTTON DESIGN */
+.btn a{
+    display:block;
+    padding:15px;
+    text-align:center;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    border-radius:15px;
+    background: linear-gradient(270deg,#00f5ff,#ff00ff,#00ff88,#00f5ff);
+    background-size: 600% 600%;
+    animation: gradientMove 6s ease infinite;
+    box-shadow:0 0 10px #00f5ff55;
+    transition:0.3s;
+    border:1px solid rgba(255,255,255,0.2);
+}
+
+@keyframes gradientMove{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+
+/* Hover Glow */
+.btn a:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 25px #00ffff,0 0 40px #ff00ff;
+}
+
+/* Footer */
+.footer{
+    text-align:center;
+    padding:15px;
+    margin-top:10px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+}
+</style>
+</head>
+
+<body>
+
+<!-- particles -->
+<div class="particles">
+<script>
+for(let i=0;i<30;i++){
+    let span = document.createElement("span");
+    span.style.left = Math.random()*100 + "vw";
+    span.style.animationDuration = (Math.random()*5+5)+"s";
+    document.querySelector(".particles").appendChild(span);
+}
+</script>
+</div>
+
+<div class="header">
+💠AT TAQWA CYBER FORCE💠
+</div>
+
+<div class="section-title">💠AT TAQWA CYBER FORCE💠</div>
+
+<div class="container">
+
+<div class="btn"><a href="https://m.facebook.com/help/contact/295309487309948">♻️FACEBOOK IMPOSTER REPORT♻️</a></div>
+<div class="btn"><a href="https://m.facebook.com/help/contact/copyrightform">♻️FACEBOOK COPYRIGHT♻️</a></div>
+<div class="btn"><a href="https://m.facebook.com/help/contact/516343134409068">♻️FACEBOOK PRIVACY VIOLENCE♻️</a></div>
+<div class="btn"><a href="https://m.facebook.com/help/contact/209046679279097">♻️FACEBOOK UNDER AGE REPORT♻️</a></div>
+<div class="btn"><a href="https://https://www.facebook.com/help/contact/319149701968527">♻️FACEBOOK LEGAL REMOVAL♻️</a></div>
+
+<div class="btn"><a href="https://help.instagram.com/contact/552695131608132">♻️INSTAGRAM COPYRIGHT♻️</a></div>
+<div class="btn"><a href="https://m.facebook.com/help/contact/274459462613911">♻️FACEBOOK REPORT SOMETHING♻️</a></div>
+<div class="btn"><a href="https://www.tiktok.com/legal/report/feedback">♻️TIK TOK I'D REPORT♻️</a></div>
+<div class="btn"><a href="https://help.meta.com/requests/1371776380779082">♻️FACEBOOK INDIAN GRIEVANCE♻️VPN INDIA♻️</a></div>
+<div class="btn"><a href="https://m.facebook.com/help/contact/725651070269668">♻️18+FB PAGE/POST REMOVE♻️ VPN US♻️</a></div>
+
+<div class="btn"><a href="https://www.facebook.com/help/contact/435015304579692">♻️TURKEY REPORT LEGAL REMOVAL♻️ VPN TURKEY♻️</a></div>
+<div class="btn"><a href="https://m.facebook.com/help/contact/1866954787329282">♻️18+PAGE REPORT♻️VPN UK♻️</a></div>
+<div class="btn"><a href="https://help.instagram.com/contact/474053802368648">♻️INSTAGRAM ACCOUNT REMOVEA♻️VPN UK♻️</a></div>
+<div class="btn"><a href="https://www.facebook.com/reel/4191113434537042">♻️FB MARCO CIVIL BRAZILIAN REPORT♻️VPN BRAZIL♻️</a></div>
+<div class="btn"><a href="https://help.instagram.com/874680996209917/">♻️INSTAGRAM LEGAL REMOVAL♻️</a></div>
+
+<div class="btn"><a href="https://help.snapchat.com/hc/en-us/requests/new?co=true&tf_23701027754644=cf_report_violation_other_under_13&ticket_form_id=17471023300884">♻️SNAPCHAT ACCOUNT REMOVE♻️</a></div>
+<div class="btn"><a href="https://m.facebook.com/help/contact/430253071144967">♻️DEFAMATION REPORT♻️</a></div>
+<div class="btn"><a href="https://m.facebook.com/help/contact/1653629651334864">♻️COPYRIGHT RESTORE♻️</a></div>
+<div class="btn"><a href="https://www.whatsapp.com/contact/?subject=messenger">♻️WHATSAPP ACCOUNT REMOVE♻️</a></div>
+<div class="btn"><a href="https://www.bkash.com">♻️BKASH LIVE♻️</a></div>
+<div class="btn"><a href="https://nagad.com.bd/contact/">♻️NAGAD LIVE♻️</a></div>
+
+</div>
+
+<div class="section-title">💠TEAM ATCF💠</div>
+
+<div class="container">
+
+<div class="btn"><a href="https://www.facebook.com/profile.php?id=100091863013020">☠️ FACEBOOK PAGE☠️</a></div>
+<div class="btn"><a href="https://facebook.com/groups/1036133384870748/?mibextid=rS40aB7S9Ucbxw6v">☠️ FACEBOOK GROUP ☠️</a></div>
+<div class="btn"><a href="https://t.me/ATTAQWACYBER">☠️TELEGRAM☠️</a></div>
+<div class="btn"><a href="https://wa.me/qr/NLXIGJPMHY5RM1?s=v">☠️WHATSAPP☠️</a></div>
+
+</div>
+
+<div class="footer">
+💠 ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎───APPS AT TAQWA CYBER FORCE 🌷🏻
+</div>
+
+</body>
+</html>
